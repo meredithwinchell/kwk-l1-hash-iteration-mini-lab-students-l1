@@ -50,8 +50,8 @@ end
       :Athens => "2004",
       :Beijing => "2008",
       :London => "2012"
-    }.upcase
-    summer_olympics[:Atlanta] = "1996"
+    }
+    summer_olympics[:Atlanta] = "1996".upcase
 
 
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
