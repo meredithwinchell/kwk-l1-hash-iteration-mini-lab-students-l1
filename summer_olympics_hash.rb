@@ -53,8 +53,9 @@ end
     }
     summer_olympics[:Atlanta] = "1996"
 
+    summer_olympics.each_key do |place|
+      upcased_cities = "#{place}".upcase
+      puts upcased_cities
+    end  
 
-  # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
-
-  "place".upcase
 end
