@@ -19,7 +19,7 @@ def add_a_key_value_pair
   }
   summer[:Atlanta] = "1996"
   return summer_olympics
-  
+
 end
 
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
