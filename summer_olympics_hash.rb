@@ -42,7 +42,17 @@ puts summer_olympics  # and puts each key value pair within the phrase "The ____
 end
 
 
-def iterate_through_keys
+
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
+  def iterate_through_keys
+    summer_olympics = {
+      :Sydney => "2000",
+      :Athens => "2004",
+      :Beijing => "2008",
+      :London => "2012"
+    }.upcase
+    summer_olympics[:Atlanta] = "1996"
+
+  
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
 end
