@@ -53,6 +53,6 @@ end
     }.upcase
     summer_olympics[:Atlanta] = "1996"
 
-  
+
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
 end
