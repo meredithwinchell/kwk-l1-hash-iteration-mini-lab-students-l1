@@ -4,12 +4,12 @@ def create_olympics_hash
     :Sydney => "2000",
     :Athens => "2004",
     :Beijing => "2008",
-    :London => "2012",
+    :London => "2012"
   }
   puts summer_olympics
 
 end
-create_olympics_hash
+
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
