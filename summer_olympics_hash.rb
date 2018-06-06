@@ -17,7 +17,7 @@ def add_a_key_value_pair
     :Beijing => "2008",
     :London => "2012"
   }
-  summer["Atlanta"] = 1996
+  summer[:Atlanta] = "1996"
   return summer_olympics
 
 end
