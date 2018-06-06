@@ -12,7 +12,7 @@ end
 
 def add_a_key_value_pair
   summer[:Atlanta] = "2000"
-   
+
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
 
