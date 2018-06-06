@@ -7,7 +7,6 @@ def create_olympics_hash
     :London => "2012",
   }
   puts summer_olympics
-end
 
 
 
