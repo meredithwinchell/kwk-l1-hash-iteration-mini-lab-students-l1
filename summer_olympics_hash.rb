@@ -56,6 +56,9 @@ end
     summer_olympics.each_key do |place|
       upcased_cities = "#{place}".upcase
       puts upcased_cities
-    end  
+    end
 
 end
+
+iterate_through_keys
+
